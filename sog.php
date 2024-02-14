@@ -26,23 +26,6 @@
         z-index: 10;
     }
 
-    #flow {
-        max-width: 100vw;
-        position: absolute;
-        top: 0;
-        left: 0;
-        animation: inimate__one 5s infinite;
-    }
-
-    #flow2 {
-        transform: scale(-1, -1);
-        max-width: 100vw;
-        position: absolute;
-        bottom: 0;
-        right: 0;
-        animation: inimate__two 5s infinite;
-    }
-
     @keyframes inimate__one {
         0% {
             transform: skewY(0.5deg);
@@ -73,8 +56,6 @@
 </style>
 
 <body>
-    <!-- <img src="flower.png" id="flow" alt="" srcset="">
-    <img src="flower.png" id="flow2" alt="" srcset=""> -->
     <div class="first">
         <?
         $link = "https://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
