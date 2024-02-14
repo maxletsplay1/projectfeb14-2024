@@ -255,7 +255,7 @@
         }
 
         document.getElementById('nameinput').addEventListener('input', function() {
-            updateButtonState(); 
+            updateButtonState();
         });
     </script>
 

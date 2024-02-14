@@ -34,8 +34,7 @@
         background-color: white !important;
     }
 
-    h1,
-    h2 {
+    h1 {
         color: black !important;
     }
 
@@ -53,7 +52,8 @@
     <div class="first">
         <h1>Ну и пожалуйста!</h1>
         <h1>Снизу ссылка, отправь ее</h1>
-        <p id="myText">http://projectfeb14.atwebpages.com/otkaz</p>
+        <p id="myText"><? $link = "http://$_SERVER[HTTP_HOST]";
+                        echo $link ?>/otkaz</p>
         <button class="button-74" id="final" onclick="copyContent()">
             <h2 class="tyk">Копировать</h2>
             <h2 class="copied hidden">Скопировано</h2>
